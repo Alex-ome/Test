@@ -1,0 +1,104 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U eclipses%b		eclipses.adb		c86d0d8d NE OO SU IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W p_eclipse%s		p_eclipse.adb		p_eclipse.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-sequio.ads		20180111085525 3573d8ce ada.sequential_io%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tienio.ads		20170908151217 fc618ae6 ada.text_io.enumeration_io%s
+D a-tiflio.ads		20180111085525 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D eclipses.adb		20200110133018 5d0cd28f eclipses%b
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_eclipse.ads		20200110131401 b4d3179a p_eclipse%s
+D sequenio.ads		20170908151217 46f09bdc sequential_io%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-sequio.ads		20180111085525 fc7560a7 system.sequential_io%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 4 a-sequio.ads
+53P9*File_Type<23|63P9> 12|11r23[15|51]
+55E9*File_Mode
+55n23*In_File{55E9[15|51]} 12|23r8[15|51] 29r9[15|51] 46r12[15|51]
+55n32*Out_File{55E9[15|51]} 12|44r13[15|51]
+70U14*Create 12|44s1[15|51]
+76U14*Open 12|23s1[15|51]
+82U14*Close 12|48s1[15|51] 50s1[15|51]
+84U14*Reset 12|29s1[15|51] 46s1[15|51]
+X 7 a-textio.ads
+242U14*Put 12|18s5 20s5
+263U14*Put_Line 12|31s5 32s5 34s5 35s5
+X 12 eclipses.adb
+5U11*eclipses 5b11 53l5 53t13
+7r1 date1{15|17R9} 17r16
+8r1 date2{15|17R9} 17r10
+9r1 date3{15|17R9}
+10r1 date4{15|17R9}
+11p1 f{4|53P9[15|51]} 23m6 23r6 24r9 29m7 29r7 30r12 45m12 45r12 50m7 50r7
+11p3 fres{4|53P9[15|51]} 44m8 44r8 45m14 45r14 46m7 46r7 47r9 48m7 48r7
+12r1 HorraireAj{15|24R9} 14r70
+13r1 DateAj{15|17R9} 14r33
+14r1 EclipseAj{15|37R9}
+X 15 p_eclipse.ads
+7K9*p_eclipse 12|1w6 1r21 1r36 1r64 1r88 15|72e14
+14I12*T_Jour{positive}
+15n38*Mars{15E9} 12|7r39 8r39
+15n56*Juin{15E9} 12|13r40
+15n71*Aout{15E9} 12|10r39
+16I12*T_Annee{integer}
+17R9*TR_Date 12|7r8 8r8 9r8 10r8 13r9 15|21e14
+18i10*Jour{14I12} 12|7m45 8m45 10m45 13m46
+19e10*Mois{15E9} 12|7m31 8m31 10m31 13m32
+20i10*Annee{16I12} 12|7m18 8m18 10m18 13m19
+24R9*TR_Horaire 12|12r13 15|28e14
+25i9*Heure{integer} 12|12m26
+26i9*Min{integer} 12|12m37
+27i9*Sec{integer} 12|12m47
+31n36*Totale{31E9} 12|45r19
+31n44*Annulaire{31E9} 12|14r52
+34F17*T_Magnitude{float}
+37R9*TR_Eclipse 12|14r13 15|42e14
+38r10*Date{17R9} 12|14m26
+39e10*Categorie{31E9} 12|14m40
+40r10*HMaxi{24R9} 12|14m62
+41f10*Magnitude{34F17} 12|14m82
+48K12*p_mois_io[8|26] 12|1r98
+49K12*p_int_io[10|46] 12|1r74
+51K12*p_eclipse_io[4|43] 12|1r46 11r10
+56V10*Avant{boolean} 12|17s4
+60U11*Affiche 12|24s1 47s1
+62V10*TestTri{boolean} 12|30s4
+69U11*Selection 12|45s1
+X 23 s-sequio.ads
+63P9*File_Type(43R9)
+X 31 text_io.ads
+24K9*Text_IO=24:29 12|2w6 2r19
+

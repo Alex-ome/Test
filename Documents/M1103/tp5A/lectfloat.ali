@@ -1,0 +1,77 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U lectfloat%b		lectfloat.adb		184a9fdd NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiflau.ads		20180111085525 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20180111085525 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20180111085525 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D lectfloat.adb		20191210141658 0a286198 lectfloat%b
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-fatflt.ads		20180111085525 11beb392 system.fat_flt%s
+D s-fatgen.ads		20180111085525 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 6 a-textio.ads
+52P9*File_Type 13|8r12
+53n23*In_File{53E9} 13|15r9
+92U14*Open 13|15s1
+98U14*Close 13|26s1
+166U14*New_Line 13|20s9
+168U14*Skip_Line 13|24s5
+171V13*End_Of_Line{boolean} 13|17s15
+183V13*End_Of_File{boolean} 13|16s11
+X 8 a-tiflio.ads
+46k21*Float_IO 89e25 13|6r23
+52U14 Get 13|18s9[6]
+68U14 Put 13|19s9[6]
+X 13 lectfloat.adb
+4U11*lectfloat 4b11 28l5 28t14
+6K9 P_reel[8|46] 6r44
+8p1 f{6|52P9} 15m6 15r6 16r23 17r27 18r13 24r15 26m7 26r7
+10f1 n{float} 18m15 19r13
+X 14 p_esiut.ads
+15K11*p_esiut 13|2w6 2r19 14|181e14
+X 30 text_io.ads
+24K9*Text_IO=24:29 13|1w6 1r19 8r4
+

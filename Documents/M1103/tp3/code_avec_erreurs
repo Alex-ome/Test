@@ -1,0 +1,57 @@
+	-------------------------------------------------------------------------------------
+	procedure Maximum(f : in out p_pos_io.file_type; max : out positive) is
+	--{f ouvert en lecture} => {max = maximum des éléments de f}
+		val : positive;
+	begin
+		read(f, max);
+		while not end_of_file(f) loop
+			read(f, val);
+			if val > max then
+				max := val;
+			end if;
+		end loop;
+	exception
+		when others => 
+			Ecrire_ligne("Procédure Maximum : Erreur fatale...");
+			raise;
+	end Maximum;
+	-------------------------------------------------------------------------------------
+	procedure Minimum(f : in out p_pos_io.file_type; min : out positive) is
+	--{f ouvert en lecture} => {min = minimum des éléments de f}
+		val : positive;
+	begin
+		open(f, in_file,"fichkm"); 
+		min := positive'last;
+		while not end_of_file(f) loop
+			read(f, val);
+			if val < min then
+				min := val;
+			end if;
+		end loop;
+		close(f);
+	exception
+		when others => 
+			Ecrire_ligne("Procédure Minimum : Erreur fatale...");
+			raise; 
+	end Minimum;
+	-------------------------------------------------------------------------------------
+	procedure Moyenne(f : in out p_pos_io.file_type; moy : out float) is
+	--{f ouvert en lecture} => {moy = moyenne des éléments de f}
+		val : positive := 1;
+		n, somme : integer; 
+	begin
+		reset(f, in_file);
+		n := 0; somme := 0;
+		while not end_of_file(f) loop
+			write(f, val);
+			n := n + 1;
+			somme := somme + val;
+		end loop;
+		moy := float(somme) / float(n);
+	exception
+		when others => 
+			Ecrire_ligne("Procédure Moyenne : Erreur fatale...");
+			raise;		
+	end Moyenne;
+	-------------------------------------------------------------------------------------
+

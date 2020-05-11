@@ -1,0 +1,139 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U p_biblio%b		p_biblio.adb		9cc0dda9 OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+W direct_io%s
+W interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+Z system.compare_array_unsigned_8%s  s-carun8.adb  s-carun8.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.direct_io%s	s-direio.adb		s-direio.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U p_biblio%s		p_biblio.ads		7ac2610d EE NE OO PK IL
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-direio.ads		20180111085525 a93c9b31 ada.direct_io%s
+D a-direio.adb		20180111085525 dc70efaa ada.direct_io%b
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D directio.ads		20170908151217 d9b35108 direct_io%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_biblio.ads		20191120080001 491257d0 p_biblio%s
+D p_biblio.adb		20191120082853 0c61db71 p_biblio%b
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-carun8.ads		20180111085525 a903718d system.compare_array_unsigned_8%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-direio.ads		20180111085525 7c86ede3 system.direct_io%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-fileio.ads		20180111085525 45ce2f0f system.file_io%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 2 a-direio.ads
+53P9*File_Type<20|81P9> 14|10r13[8]
+55E9*File_Mode
+55n23*In_File{55E9[14|8]} 14|15r25[8] 24r19[8]
+66I9*Count<long_integer>
+80U14*Open 14|15s17[8] 24s11[8]
+86U14*Close 14|17s17[8] 28s11[8]
+108U14*Read 14|26s19[8]
+124V13*Size{66I9[14|8]} 14|16s40[8]
+X 10 directio.ads
+24k17*Direct_IO 14|1w6 8r36
+X 13 p_biblio.ads
+3K9*p_biblio 52l5 52e13 14|3b14 126l5 126t13
+9A17*String20{string}<integer> 15r27
+10A17*String100{string}<integer> 17r26
+13R14*TR_Biblio 18e19 23r55 28r43 40r39 42r43 45r53 14|8r46 32r43 56r39 57r12
+. 81r43 93r53 107r15
+15a18*Auteur{9A17} 14|35r28 84r26 84r40 84r57 84r71
+16i18*Annee{integer} 14|36r28 84r87 84r100
+17a18*Titre{10A17} 14|37r41 72r36 72r54
+20V18*Taille{natural} 14|12b18 19l13 19t19
+23A14*TV_Biblio(13R14)<integer> 25r39 31r42 37r47 45r33 48r56 14|21r39 41r42
+. 65r47 93r33 105r56
+25U19*Lirevect 25<28 14|21b19 29l13 29t21
+25a28 Vect{23A14} 14|21b28 25r20 26m26 26r26
+28U19*Afficherbiblio 28>34 14|32b19 38l13 38t27 48s25
+28r34 Ref{13R14} 14|32b34 35r24 36r24 37r37
+31U19*AfficherVect 31>32 14|41b19 51l13 51t25
+31a32 Vect{23A14} 14|41b32 47r26 48r41
+37U19*TriBulleTitre 37=33 14|65b19 79l13 79t26
+37a33 Vect{23A14} 14|65b33 67r22 70r19 71r39 72r28 72r44 73m40 73r40 73m48
+. 73r48
+40U19*Permut 40=26 40=28 14|56b19 62l13 62t19 73s33
+40r26 a{13R14} 14|56b26 60r12 61m9
+40r28 b{13R14} 14|56b28 59r12 60m9
+42V18*SupStrict{boolean} 42>28 42>34 14|81b18 90l13 90t22 97s15 112s20
+42r28 Bib1{13R14} 14|81b28 84r21 84r52 84r82
+42r34 Bib2{13R14} 14|81b34 84r35 84r66 84r95
+45V18*PositSup{positive} 45>27 45>44 14|93b18 102l13 102t21 113s29
+45a27 W{23A14} 14|93b27 95r21 97r29
+45r44 Bib{13R14} 14|93b44 97r25
+48U19*TriReplaceAuteurAnnee 48=42 14|105b19 122l13 122t34
+48a42 Vect{23A14} 14|105b42 110r12 111r19 112r30 112r40 113r38 113r43 113r61
+. 114r31 115m25 115r41 116m25
+X 14 p_biblio.adb
+8K17 p_biblio_io[2|43] 8r62
+10p9 f{2|53P9[8]} 15m22 15r22 16r45 17m23 17r23 24m16 24r16 26r24 28m17 28r17
+13i17 Taille_fich{natural} 16m17 18r24
+25i15 J{integer} 26r31
+47i21 i{integer} 48r46
+57r9 c{13|13R14} 59m9 61r12
+67i9 i{integer} 70r15 71r34 76m17 76r20
+71i21 j{integer} 72r33 72r49 73r45 73r53
+95i9 j{integer} 97r31 98m17 98r20 100r16
+107r9 sauv{13|13R14} 114m25 116r34
+108i9 i{integer} 110m9 111r15 112r35 112r45 113r55 113r66 114r36 115r35 115r49
+. 118m17 118r21
+108i12 k{integer} 113m25 115r30 115r46 116r30
+X 15 p_esiut.ads
+15K11*p_esiut 13|1w6 1r19 15|181e14
+21U16*ECRIRE 14|36s17
+69U16*ECRIRE=70:42 14|35s17
+87U16*ECRIRE_LIGNE=88:42 14|37s17 44s17 45s17 50s17
+112U16*A_LA_LIGNE=113:42 14|46s17
+X 20 s-direio.ads
+81P9*File_Type(53R9)
+

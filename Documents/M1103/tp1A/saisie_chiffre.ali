@@ -1,0 +1,48 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV SPARK_05
+
+U saisie_chiffre%b	saisie_chiffre.adb	cc794590 NE OO SU IL
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D saisie_chiffre.adb	20191113091616 ffa9734d saisie_chiffre%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 10 p_esiut.ads
+15K11*p_esiut 181e14 11|1w6 1r19
+24U16*ECRIRE_LIGNE 11|13s60
+26U16*LIRE 11|12s25
+69U16*ECRIRE=70:42 11|11s25 13s25
+87U16*ECRIRE_LIGNE=88:42 11|17s33
+X 11 saisie_chiffre.adb
+3U11*saisie_chiffre 3b11 21l5 21t19
+5I17 T_Chiffre{integer} 6r15
+6i9 Val{5I17} 12m30 13r73
+

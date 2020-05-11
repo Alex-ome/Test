@@ -1,0 +1,222 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U p_scrabble%b		p_scrabble.adb		105681bd NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W sequential_io%s
+W system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U p_scrabble%s		p_scrabble.ads		d1fd56bf EE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+W sequential_io%s
+W system%s		system.ads		system.ali
+Z system.byte_swapping%s  s-bytswa.ads		s-bytswa.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+Z system.sequential_io%s  s-sequio.adb		s-sequio.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20170908151217 bb51c45a ada.numerics%s
+D a-nudira.ads		20180111085525 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180111085525 72908cdb ada.numerics.discrete_random%b
+D a-sequio.ads		20180111085525 3573d8ce ada.sequential_io%s
+D a-sequio.adb		20180111085525 93d6700a ada.sequential_io%b
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D p_scrabble.ads	20191204153105 a4ddfbbe p_scrabble%s
+D p_scrabble.adb	20191204153757 839ebc30 p_scrabble%b
+D sequenio.ads		20170908151217 46f09bdc sequential_io%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-bytswa.ads		20180111085525 799c7440 system.byte_swapping%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-fileio.ads		20180111085525 45ce2f0f system.file_io%s
+D s-imguns.ads		20180111085525 9ff43cf7 system.img_uns%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-rannum.ads		20180111085525 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180111085525 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180111085525 01a57b33 system.random_seed%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-sequio.ads		20180111085525 fc7560a7 system.sequential_io%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-valuns.ads		20180111085525 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 11r29
+X 4 a-numeri.ads
+16K13*Numerics 32e17 17|1r10 11r33
+X 5 a-nudira.ads
+44k22*Discrete_Random 75e33 17|1w19 11r42
+50R9*Generator<28|63R9> 17|16r28[11]
+52V13*Random{integer} 17|19s30[11]
+55U14*Reset<28|100p14> 17|18s18[11]
+X 6 a-nudira.adb
+53V16 Random[28|83]{integer} 29|392b13[17|11]
+X 7 a-sequio.ads
+53P9*File_Type<32|63P9> 16|46r44[18] 49r52[18] 57r40[18] 60r51[18] 60r99[18]
+. 76r51[18] 17|160r44[16|18] 177r52[16|18] 210r40[16|18] 225r51[16|18] 225r99[16|18]
+. 326r51[16|18]
+55E9*File_Mode
+55n23*In_File{55E9[16|18]} 17|182r17[16|18] 184r17[16|18] 231r25[16|18] 331r18[16|18]
+84U14*Reset 17|182s9[16|18] 184s9[16|18] 231s17[16|18] 331s9[16|18]
+99U14*Read 17|165s9[16|18] 168s17[16|18] 186s17[16|18] 215s25[16|18] 233s25[16|18]
+. 334s17[16|18]
+100U14*Write 17|235s33[16|18]
+102V13*End_Of_File{boolean} 17|167s19[16|18] 185s19[16|18] 214s27[16|18]
+. 232s27[16|18] 333s19[16|18]
+X 13 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 15 p_esiut.ads
+15K11*p_esiut 181e14 16|1w6 1r19
+24U16*ECRIRE_LIGNE 17|242s17 343s9
+53U16*ECRIRE=54:42 17|86s17 276s17
+69U16*ECRIRE=70:42 17|87s17 241s17 277s17 342s9
+87U16*ECRIRE_LIGNE=88:42 17|63s25 188s25 273s25 312s17 337s25
+127V18*IMAGE{string} 17|63s81
+X 16 p_scrabble.ads
+4K9*p_scrabble 79l5 79e15 17|4b14 348l5 348t15
+10E17*T_jeton{character} 12r34
+12A14*TV_points(natural)<character> 14r28
+14a9*VPoints{12A14} 17|152r16
+17A17*T_mot{string}<integer> 18r47 33r35 38r36 38r50 43r35 52r43 57r58 73r53
+. 17|81r35 109r36 109r50 111r19 144r35 162r12 179r13 193r43 195r26 210r58
+. 212r12 227r20 297r53 328r12
+18K17*p_mot_io[7|43] 18r59 46r35 49r43 57r31 60r42 60r90 76r42 17|160r35
+. 177r43 210r31 225r42 225r90 326r42
+20V18*MelangeJetons{string} 17|22b18 47l13 47t26
+23U19*TirageSansRemise 23=36 23<57 17|49b19 74l13 74t29
+23a36 Jeu{string} 17|49b36 54r36 57r26 58r28 68r51 70r46 71m33
+23a57 tirage{string} 17|49b57 56m17 62r28 63r87 65r34 70m33
+33U19*Affiche 33>27 17|81b19 90l13 90t20
+33a27 mot{17A17} 17|81b27 85r18 86r24
+36V18*IndMin{integer} 36>25 17|92b18 105l13 105t19 123s20
+36a25 V{string} 17|92b25 93r23 94r28 94r30 97r18 97r29 98r20 99r30
+38V18*Squelette{17A17} 38>28 17|109b18 138l13 138t22 198s17 199s17 300s25
+. 301s25
+38a28 mot{17A17} 17|109b28 115r18
+43V18*NBPoints{natural} 43>27 17|144b18 157l13 157t21 166s14 169s26 170s30
+. 187s28
+43a27 mot{17A17} 17|144b27 151r18 152r24
+46V18*MaxPoints{natural} 46>28 17|160b18 175l13 175t22 183s16
+46p28 f{7|53P9[18]} 17|160b28 165r14 167r31 168r22
+49U19*MotsGagnants 49=32 17|177b19 191l13 191t25
+49p32 f{7|53P9[18]} 17|177b32 182m15 183r26 184m15 185r31 186r22
+52V18*Anagramme{boolean} 52>28 52>34 17|193b18 206l13 206t22
+52a28 mot1{17A17} 17|193b28 198r27
+52a34 mot2{17A17} 17|193b34 199r27
+57V18*Existe{boolean} 57>25 57>51 17|210b18 222l13 222t19
+57p25 f{7|53P9[18]} 17|210b25 214r39 215r30
+57a51 mot{17A17} 17|210b51 216r30
+60U19*CreeFicMots 60=32 60>62 60=79 17|225b19 245l13 245t24
+60p32 f{7|53P9[18]} 17|225b32 231m23 232r39 233r30
+60e62 car{character} 17|225b62 234r39
+60p79 g{7|53P9[18]} 17|225b79 235r39
+65V18*NbJoker{natural} 65>26 17|253b18 266l13 266t20 302s23
+65a26 tirage{string} 17|253b26 258r18 259r20
+68U19*AfficheJeu 68>30 17|268b19 282l13 282t23
+68a30 jeu{string} 17|268b30 271r18 276r24
+71V18*Estla{boolean} 71>24 71>40 17|285b18 295l13 295t18 314s20
+71a24 mot{string} 17|285b24 288r18 289r20
+71e40 car{character} 17|285b40 289r27
+73V18*Mapping{boolean} 73>26 73>45 17|297b18 324l13 324t20 336s20
+73a26 tirage{string} 17|297b26 300r35 302r31
+73a45 mot{17A17} 17|297b45 301r35
+76U19*LesScrabbles 76=32 76>62 17|326b19 346l13 346t25
+76p32 f{7|53P9[18]} 17|326b32 331m15 333r31 334r22
+76a62 tirage{string} 17|326b62 336r28
+X 17 p_scrabble.adb
+9I17 T_numjeton{positive} 11r58
+11K17 Alea[5|44] 11r75 16r23 19r25
+14V18 hasard102{positive} 14b18 20l13 20t22 39s16 67s48
+16r17 Gen{5|50R9[11]} 18r24 19r37
+26a17 VJeu{string} 35r20 41r23
+33i7 Num{integer} 39m10 40r18 41r28 42r18
+33i11 i{integer} 37m9 38r13 41r17 43m13 43r16
+34a7 Jeu{string} 37r14 38r18 41m13 46r14
+35a7 VNum(boolean) 40r13 42m13
+53i17 Num{integer} 67m41 68r55 70r50 71r37
+54i17 reste{natural} 59m33 59r42 62r20
+57i21 i{integer} 58r32
+65i29 i{integer} 70r40
+85i13 i{integer} 86r28
+93i9 j{integer} 100m25 103r16
+94e9 min{character} 98r27 99m25
+97i13 i{integer} 98r22 99r32 100r28
+111a9 mottrie{16|17A17} 115m9 116r12 121r19 123r27 123r38 126r33 127m25 127r37
+. 128m25 136r16
+112i9 i{integer} 116m9 121r15 123r35 125r25 126r41 127r33 131m17 131r20
+112i11 j{integer} 123m17 125r20 127r45 128r33
+113e9 permut{character} 126m25 128r37
+146i9 nb{integer} 149m9 152m9 152r13 155r16
+151i13 i{integer} 152r28
+162a9 c{16|17A17} 165m16 166r23 168m24 169r35 170r39
+163i9 max{natural} 166m9 169r20 170m25 173r16
+179a9 c{16|17A17} 186m24 187r37 188r38
+180i9 maxim{natural} 183m9 187r40
+195a9 Squel1{16|17A17} 198m9 200r12
+195a17 Squel2{16|17A17} 199m9 200r19
+212a9 c{16|17A17} 215m32 216r28
+227a17 c{16|17A17} 233m32 234r28 234r30 235r41
+228i17 nb{integer} 230m17 236m33 236r37 242r30
+255i9 nb{natural} 257m9 260m25 260r29 264r16
+258i13 i{integer} 259r27
+271i13 i{integer} 272r20 276r28
+288i13 i{integer} 289r24
+300a9 Squel1{16|17A17} 311r18 311r32 314r49
+301a9 Squel2{16|17A17} 306r12 312r30 312r40 314r26 314r36
+302i9 NbJ{natural} 307r12 308m17 311r25
+303i9 j{integer} 306m9 312r37 314r33 317m17 317r20
+311i13 i{integer} 314r56
+327i9 Nb{integer} 330m9 338m25 338r29 343r22
+328a9 c{16|17A17} 334m24 336r35 337r38
+X 18 sequenio.ads
+24k17*Sequential_IO 16|2w6 18r33 17|2w6
+X 28 s-rannum.ads
+75V13*Random{13|74M9} 29|221i21
+76V13*Random{13|77M9} 29|221i21
+X 32 s-sequio.ads
+63P9*File_Type(43R9)
+

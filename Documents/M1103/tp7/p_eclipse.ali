@@ -1,0 +1,183 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U p_eclipse%b		p_eclipse.adb		355fd817 NE OO PK IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
+
+U p_eclipse%s		p_eclipse.ads		d39144de EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+Z ada.unchecked_conversion%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W sequential_io%s
+W system%s		system.ads		system.ali
+Z system.byte_swapping%s  s-bytswa.ads		s-bytswa.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.sequential_io%s  s-sequio.adb		s-sequio.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-sequio.ads		20180111085525 3573d8ce ada.sequential_io%s
+D a-sequio.adb		20180111085525 93d6700a ada.sequential_io%b
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tienau.ads		20180111085525 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20170908151217 fc618ae6 ada.text_io.enumeration_io%s
+D a-tienio.adb		20180111085525 c9e6b5af ada.text_io.enumeration_io%b
+D a-tiflau.ads		20180111085525 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20180111085525 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20180111085525 fd9b1cfc ada.text_io.float_io%b
+D a-tiinau.ads		20180111085525 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20180111085525 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_eclipse.ads		20200110131401 b4d3179a p_eclipse%s
+D p_eclipse.adb		20200110132447 818ccf8d p_eclipse%b
+D sequenio.ads		20170908151217 46f09bdc sequential_io%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-bytswa.ads		20180111085525 799c7440 system.byte_swapping%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-fatflt.ads		20180111085525 11beb392 system.fat_flt%s
+D s-fatgen.ads		20180111085525 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-fileio.ads		20180111085525 45ce2f0f system.file_io%s
+D s-imenne.ads		20180111085525 614c06c0 system.img_enum_new%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-sequio.ads		20180111085525 fc7560a7 system.sequential_io%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-valenu.ads		20180111085525 bb1a4295 system.val_enum%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 4 a-sequio.ads
+53P9*File_Type<35|63P9> 21|60r40[51] 62r38[51] 65r45[51] 69r51[51] 22|28r40[21|51]
+. 46r38[21|51] 60r45[21|51] 77r51[21|51]
+55E9*File_Mode
+55n23*In_File{55E9[21|51]} 22|63r9[21|51] 80r9[21|51]
+55n32*Out_File{55E9[21|51]} 22|81r12[21|51]
+84U14*Reset 22|63s1[21|51] 80s1[21|51] 81s1[21|51]
+99U14*Read 22|35s5[21|51] 49s1[21|51] 50s1[21|51] 54s5[21|51] 64s1[21|51]
+. 66s5[21|51] 83s5[21|51]
+100U14*Write 22|85s9[21|51]
+102V13*End_Of_File{boolean} 22|34s11[21|51] 52s42[21|51] 65s31[21|51] 82s11[21|51]
+X 8 a-textio.ads
+166U14*New_Line 22|24s45
+242U14*Put 22|21s1 21s36 21s64 21s95 22s1 22s40 23s1 23s41 23s51 23s82 23s92
+. 23s122 23s132 24s1 40s1 72s5
+263U14*Put_Line 22|42s1
+X 10 a-tienio.ads
+26k21*Enumeration_IO 55e31 21|47r28 48r29
+40U14*Put 22|21s46[21|48] 22s22[21|47]
+X 13 a-tiflio.ads
+46k21*Float_IO 89e25 21|50r30
+68U14*Put 22|24s21[21|50]
+X 16 a-tiinio.ads
+46k21*Integer_IO 85e27 21|49r28
+66U14*Put 22|21s16[21|49] 21s74[21|49] 23s19[21|49] 23s62[21|49] 23s102[21|49]
+. 41s1[21|49]
+X 21 p_eclipse.ads
+7K9*p_eclipse 72l5 72e14 22|2b14 94l5 94t14
+14I12*T_Jour{positive} 18r18
+15E9*T_Mois 15e116 19r18 48r44
+15n20*Janvier{15E9}
+15n29*Fevrier{15E9}
+15n38*Mars{15E9}
+15n44*Avril{15E9}
+15n51*Mai{15E9}
+15n56*Juin{15E9}
+15n62*Juillet{15E9}
+15n71*Aout{15E9}
+15n77*Septembre{15E9}
+15n88*Octobre{15E9}
+15n97*Novembre{15E9}
+15n107*Decembre{15E9}
+16I12*T_Annee{integer} 20r18
+17R9*TR_Date 21e14 38r25 56r28 65r62 22|4r28 60r62
+18i10*Jour{14I12} 22|8r124 8r134 21r27
+19e10*Mois{15E9} 22|8r55 8r65 8r102 8r112 21r57
+20i10*Annee{16I12} 22|8r7 8r18 8r31 8r42 8r78 8r89 21r85
+24R9*TR_Horaire 28e14 40r31
+25i9*Heure{integer} 22|23r31
+26i9*Min{integer} 22|23r74
+27i9*Sec{integer} 22|23r114
+31E9*T_Categorie 31e63 39r25 47r43 69r70 22|77r70
+31n25*Partielle{31E9}
+31n36*Totale{31E9}
+31n44*Annulaire{31E9}
+31n55*Hybride{31E9}
+34F17*T_Magnitude{float} 41r25
+37R9*TR_Eclipse 42e14 51r46 58r27 22|18r27 29r5 47r12 61r4 78r5
+38r10*Date{17R9} 22|21m22 21m52 21m80 52r18 52r28 56r23 56r33 65r15 69r6
+39e10*Categorie{31E9} 22|22r28 84r10
+40r10*HMaxi{24R9} 22|23m25 23m68 23m108
+41f10*Magnitude{34F17} 22|24r27
+47K12*p_cat_io[10|26] 47r61
+48K12*p_mois_io[10|26] 48r57
+49K12*p_int_io[16|46] 49r53
+50K12*p_float_io[13|46] 50r51
+51K12*p_eclipse_io[4|43] 51r63 60r27 62r25 65r32 69r38 22|28r27 46r25 60r32
+. 77r38
+56V10*Avant{boolean} 56>17 56>20 22|4b10 14l5 14t10 52s7 56s12 65s7
+56r17 d1{17R9} 22|4b17 8r4 8r28 8r52 8r75 8r99 8r121
+56r20 d2{17R9} 22|4b20 8r15 8r39 8r62 8r86 8r109 8r131
+58U11*Affiche 58>20 22|18b11 26l5 26t12 36s5 70s5
+58r20 E{37R9} 22|18b20 21r20 21r50 21r78 22r26 23r23 23r66 23r106 24r25
+60U11*Affiche 60>20 22|28b11 44l5 44t12
+60p20 f{4|53P9[51]} 22|28b20 34r23 35r10
+62V10*TestTri{boolean} 62>19 22|46b10 58l5 58t12
+62p19 f{4|53P9[51]} 22|46b19 49r6 50r6 52r54 54r10
+65U11*Recherche 65=22 65>56 22|60b11 75l5 75t14
+65p22 f{4|53P9[51]} 22|60b22 63m7 64r6 65r43 66r11
+65r56 D{17R9} 22|60b56 65r20 69r11
+69U11*Selection 69=22 69=25 69>62 22|77b11 89l5 89t14
+69p22 f{4|53P9[51]} 22|77b22 80m7 82r23 83r10
+69p25 fres{4|53P9[51]} 22|77b25 81m7 85r15
+69e62 Cat{31E9} 22|77b62 84r22
+X 22 p_eclipse.adb
+29r1 e{21|37R9} 35m12 36r13
+30i1 nb{integer} 37m5 37r9 41r5
+47r1 pred{21|37R9} 49m8 52r13 53m5 56r18
+47r6 succ{21|37R9} 50m8 52r23 53r11 54m12 56r28
+61r1 m{21|37R9} 64m8 65r13 66m13 69r4 70r13
+78r1 m{21|37R9} 83m12 84r8 85r20
+X 23 sequenio.ads
+24k17*Sequential_IO 21|4w6 51r32
+X 35 s-sequio.ads
+63P9*File_Type(43R9)
+X 44 text_io.ads
+24K9*Text_IO=24:29 21|5w6 5r19
+

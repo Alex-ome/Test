@@ -1,0 +1,81 @@
+V "GNAT Lib v8"
+M P W=b
+A -gnatv
+A -gnato
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_RELATIVE_DELAY
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U ppr%b			ppr.adb			21877c33 NE OO SU IL
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+W p_figures%s		p_figures.adb		p_figures.ali
+W p_graphbase%s		p_graphbase.adb		p_graphbase.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-calend.ads		20180111085525 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20180111085525 9f20b83d ada.calendar.delays%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D p_figures.ads		20191114080619 7f3cad30 p_figures%s
+D p_graphbase.ads	20191017071813 3eb14239 p_graphbase%s
+D ppr.adb		20191114084436 53daa5e7 ppr%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 12 p_esiut.ads
+15K11*p_esiut 181e14 15|3w6 3r19
+X 13 p_figures.ads
+3K9*p_figures 18e14 15|2w6 2r21
+7R9*TR_Rectangle 11e14 15|7r13
+8r7*CoinG{14|7R14} 15|13m11 14r31 14r53 15r31 15r49 28m11 29r31 29r53 30r31
+. 30r49
+9r7*Largeur{14|7R14} 15|14m11 29m11
+10r7*Hauteur{14|7R14} 15|15m11 30m11
+15U14*dessiner 15|23s1 26s1 32s1
+X 14 p_graphbase.ads
+3K9*p_graphbase 52e16 15|1w6 1r23
+8i17*x{integer} 15|14r37 15r37 29r37 30r37
+9i17*y{integer} 15|14r59 15r55 29r59 30r55
+14n37*blanc{14E18} 15|20r18 31r18
+14n91*gris{14E18} 15|25r18
+15n37*continu{15E18} 15|21r17
+16I18*T_epaisseur{positive}
+18R14*TR_contexte 22e19 15|8r13
+19e17*coul{14E18} 15|20m11 25m11 31m11
+20e17*asp{15E18} 15|21m11
+21i17*epais{16I18} 15|22m11
+36U19*Initialisation 15|17s1
+39U19*ouvrir_fenetre 15|18s1
+43U19*fermer_fenetre 15|34s1
+49U19*Attendre_Clic 15|19s1 24s1 33s1
+X 15 ppr.adb
+5U11*ppr 5b11 36l5 36t8
+7r1 Rectangle{13|7R9} 13m1 14m1 14r21 14r43 15m1 15r21 15r39 23r10 26r10
+. 28m1 29m1 29r21 29r43 30m1 30r21 30r39 32r10
+8r1 Contchoix{14|18R14} 20m1 21m1 22m1 23r20 25m1 26r20 31m1 32r20
+

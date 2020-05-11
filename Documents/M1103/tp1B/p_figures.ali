@@ -1,0 +1,55 @@
+V "GNAT Lib v8"
+A -gnatv
+A -gnato
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U p_figures%b		p_figures.adb		5a47055f NE OO PK IL
+W p_graphbase%s		p_graphbase.adb		p_graphbase.ali
+
+U p_figures%s		p_figures.ads		727c6e28 EE NE OO PK IL
+W p_graphbase%s		p_graphbase.adb		p_graphbase.ali
+
+D p_figures.ads		20191119140559 4ccd2c11 p_figures%s
+D p_figures.adb		20191119140906 283b6b77 p_figures%b
+D p_graphbase.ads	20191017071813 3eb14239 p_graphbase%s
+D system.ads		20180111085525 4635ec04 system%s
+X 1 p_figures.ads
+3K9*p_figures 20l5 20e14 2|3b14 38l5 38t14
+5A9*TV_LigneBrisee(3|7R14)<integer> 6r28 13r33 2|5r34
+6A9*TV_Triangle<5A9>(3|7R14)<integer> 17r37 2|29r38
+7R9*TR_Rectangle 11e14 15r33 2|18r34
+8r7*CoinG{3|7R14} 2|21r28 22r28
+9r7*Largeur{3|7R14} 2|21r39 23r28 23r42 24r42
+10r7*Hauteur{3|7R14} 2|22r39 23r57 24r28 24r57
+13U14*dessiner 13>23 13>49 2|5b15 15l9 15t17
+13a23 Bris{5A9} 2|5b24 9r18 9r32 11r27 11r37
+13r49 Cont{3|18R14} 2|5b50 11r46 11r56 11r65
+15U14*dessiner 15>23 15>47 2|18b15 27l9 27t17
+15r23 Rect{7R9} 2|18b24 21r23 21r34 22r23 22r34 23r23 23r37 23r52 24r23 24r37
+. 24r52
+15r47 Cont{3|18R14} 2|18b48 21r48 21r58 21r67 22r48 22r58 22r67 23r69 23r79
+. 23r88 24r69 24r79 24r88
+17U14*dessiner 17>23 17>50 2|29b15 36l9 36t17
+17a23 Triangle{6A9} 2|29b24 32r23 32r35 33r23 33r35 34r23 34r35
+17r50 Cont{3|18R14} 2|29b51 32r48 32r58 32r67 33r48 33r58 33r67 34r48 34r58
+. 34r67
+X 2 p_figures.adb
+9i13 i{integer} 11r32 11r42
+X 3 p_graphbase.ads
+3K9*p_graphbase 1|1w6 1r23 2|1w6 1r23 3|52e16
+7R14*TR_point 1|5r55 8r15 9r17 10r17 3|10e19
+8i17*x{integer} 2|23r50 24r50
+9i17*y{integer} 2|23r65 24r65
+16I18*T_epaisseur{positive}
+18R14*TR_contexte 1|13r57 15r56 17r59 2|5r58 18r57 29r60 3|22e19
+19e17*coul{14E18} 2|11r51 21r53 22r53 23r74 24r74 32r53 33r53 34r53
+20e17*asp{15E18} 2|11r61 21r63 22r63 23r84 24r84 32r63 33r63 34r63
+21i17*epais{16I18} 2|11r70 21r72 22r72 23r93 24r93 32r72 33r72 34r72
+29U19*tracer_droite 2|11s13 21s9 22s9 23s9 24s9 32s9 33s9 34s9
+

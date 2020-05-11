@@ -1,0 +1,51 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV SPARK_05
+
+U saisie_vecteur%b	saisie_vecteur.adb	f3faa8b3 NE OO SU IL
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D saisie_vecteur.adb	20191113092501 c02a9e6e saisie_vecteur%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 10 p_esiut.ads
+15K11*p_esiut 181e14 11|1w6 1r19
+21U16*ECRIRE 11|15s33 30s33
+26U16*LIRE 11|16s33
+69U16*ECRIRE=70:42 11|14s33 15s44
+87U16*ECRIRE_LIGNE=88:42 11|22s41 27s9
+X 11 saisie_vecteur.adb
+3U11*saisie_vecteur 3b11 38l5 38t19
+5I17 T_Chiffre{integer} 6r43
+6A14 TV_Chiffre(5I17)<integer> 7r13
+7a9 V{6A14} 13r34 16m38 16r38 29r18 30r40
+13i29 i{integer} 15r40 16r40
+29i13 i{integer} 30r42
+

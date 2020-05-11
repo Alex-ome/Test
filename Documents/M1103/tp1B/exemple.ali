@@ -1,0 +1,27 @@
+V "GNAT Lib v8"
+M P W=b
+A -gnatv
+A -gnato
+P ZX
+
+RN
+RV SPARK_05
+
+U exemple%b		exemple.adb		41b9fdc6 NE OO SU IL
+W p_graphbase%s		p_graphbase.adb		p_graphbase.ali
+
+D exemple.adb		20191113100746 7f08bfff exemple%b
+D p_graphbase.ads	20191017071813 3eb14239 p_graphbase%s
+D system.ads		20180111085525 4635ec04 system%s
+X 1 exemple.adb
+3U11*exemple 3b11 14l5 14t12
+X 2 p_graphbase.ads
+3K9*p_graphbase 1|1w6 1r23 2|52e16
+14n44*noir{14E18} 1|10r43
+15n37*continu{15E18} 1|10r48
+29U19*tracer_droite 1|10s9
+36U19*Initialisation 1|7s9
+39U19*ouvrir_fenetre 1|8s9
+43U19*fermer_fenetre 1|12s9
+49U19*Attendre_Clic 1|9s9 11s9
+

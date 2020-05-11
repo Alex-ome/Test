@@ -1,0 +1,75 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U p_ponderation%b	p_ponderation.adb	8925286d NE OO PK IL
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U p_ponderation%s	p_ponderation.ads	3579d2fe EE OO PK IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D p_ponderation.ads	20191113094217 06a9e423 p_ponderation%s
+D p_ponderation.adb	20191113095841 8f8ccc4e p_ponderation%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 10 p_esiut.ads
+15K11*p_esiut 181e14 11|1w6 1r19
+26U16*LIRE 12|12s25
+69U16*ECRIRE=70:42 12|11s25
+87U16*ECRIRE_LIGNE=88:42 12|9s17 19s25 25s25
+X 11 p_ponderation.ads
+3K9*p_ponderation 20l5 20e18 12|1b14 49l5 49t18
+5I17*T_part{integer} 7r40
+6F17*T_note{float} 8r40 14r76 12|29r76
+7A14*TV_part(5I17)<integer> 11r41 14r41 12|3r41 29r41
+8A14*TV_note(6F17)<integer> 14r59 12|29r59
+11U19*Saisie_Part 11<32 12|3b19 27l13 27t24
+11a32 Vp{7A14} 12|3b32 10r26 12m30 12r30 13r43
+14U19*Calcul_Notes 14>33 14<50 14>68 12|29b19 47l13 47t25
+14a33 Vp{7A14} 12|29b33 33r26 35r48
+14a50 Vn{8A14} 12|29b50 35m33 38m25
+14f68 ng{6F17} 12|29b68 35r57
+18X9*EX_Mauvais_Total 12|17r31
+X 12 p_ponderation.adb
+5i17 Nbtotal{integer} 8m17 13m25 13r35 16r20
+10i21 i{integer} 11r68 12r33 13r46
+33i21 i{integer} 35r36 35r51 38r28
+

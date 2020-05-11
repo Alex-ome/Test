@@ -1,0 +1,92 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U stat%b		stat.adb		a5ab2df9 NE OO SU IL
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+W p_km%s		p_km.adb		p_km.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-sequio.ads		20180111085525 3573d8ce ada.sequential_io%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D p_km.ads		20191126132810 712d625a p_km%s
+D sequenio.ads		20170908151217 46f09bdc sequential_io%s
+D stat.adb		20191126140814 e756797e stat%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-sequio.ads		20180111085525 fc7560a7 system.sequential_io%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 4 a-sequio.ads
+53P9*File_Type<21|63P9> 14|7r13[12|6] 10r39[12|6] 29r43[12|6] 48r43[12|6]
+55E9*File_Mode
+55n23*In_File{55E9[12|6]} 14|15r25[12|6] 33r25[12|6] 53r25[12|6] 69r9[12|6]
+76U14*Open 14|69s1[12|6]
+82U14*Close 14|74s1[12|6]
+84U14*Reset 14|15s17[12|6] 33s17[12|6] 53s17[12|6]
+99U14*Read 14|16s17[12|6] 18s25[12|6] 36s25[12|6] 56s25[12|6]
+102V13*End_Of_File{boolean} 14|17s27[12|6] 35s27[12|6] 55s27[12|6]
+108X4*Status_Error 14|81r10[12|6]
+109X4*Mode_Error 14|82r10[12|6]
+110X4*Name_Error 14|80r10[12|6]
+113X4*End_Error 14|83r10[12|6]
+X 11 p_esiut.ads
+15K11*p_esiut 181e14 14|1w6 1r19
+21U16*ECRIRE 14|75s1
+69U16*ECRIRE=70:42 14|80s24 81s26 82s24 83s23
+87U16*ECRIRE_LIGNE=88:42 14|25s25 44s25 63s25
+X 12 p_km.ads
+4K9*p_km 11e9 14|2w6 2r15 3r5
+6K9*P_Pos_io[4|43] 14|3r10 7r4 10r30 29r34 48r34
+8U11*Taille 14|70s1
+X 14 stat.adb
+5U11*stat 5b11 85l5 85t9
+6i1 nb{natural} 70m10 75r8
+7p1 f{4|53P9[12|6]} 69m6 69r6 70m8 70r8 71m9 71r9 72m9 72r9 73m9 73r9 74m7
+. 74r7
+8i1 mini{positive} 72m11
+8i6 maxim{positive} 71m11
+9f1 lol{float} 73m11
+10U11 Maximum 10b11 10=19 10<50 27l13 27t20 71s1
+10p19 f{4|53P9[12|6]} 15m23 16r22 17r39 18r30
+10i50 max{positive} 16m25 19r34 20m33
+12i17 val{positive} 18m33 19r28 20r40
+29U15 Minimum 29b15 29=23 29<54 46l13 46t20 72s1
+29p23 f{4|53P9[12|6]} 33m23 35r39 36r30
+29i54 min{positive} 34m17 37r34 38m33
+31i17 val{positive} 36m33 37r28 38r40
+48U15 Moyenne 48b15 48=23 48<54 65l13 65t20 73s1
+48p23 f{4|53P9[12|6]} 53m23 55r39 56r30
+48f54 moy{float} 60m17
+50i17 val{positive} 56m33 58r42
+51i17 n{integer} 54m17 57m25 57r30 60r45
+51i20 somme{integer} 54m25 58m25 58r34 60r30
+X 21 s-sequio.ads
+63P9*File_Type(43R9)
+
